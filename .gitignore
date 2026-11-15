@@ -1,0 +1,10 @@
+extraido/
+salida/
+salida_completa/
+*.log
+__pycache__/
+.venv/
+venv-agro312/
+data_samples/*.csv.tmp
+original/
+log_*.txt
