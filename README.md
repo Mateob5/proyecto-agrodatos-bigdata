@@ -1,15 +1,3 @@
-Casi está perfecto, pero **tiene un error de formato** que va a romper el README cuando lo veas en GitHub.
-
-En el **Paso 2**, te faltó cerrar las tres comillas invertidas (```) del bloque de código. Por eso, todo el texto del Paso 3 y lo que sigue se va a ver como si fuera código de programación. Además, veo que se cortó el resto de la guía (faltan los pasos 4 al 7, las decisiones técnicas y el troubleshooting).
-
-Para que no te compliques copiando y pegando pedazos, **aquí tienes el archivo README.md completo, corregido y listo para pegar**. 
-
-Haz esto:
-1. Abre tu archivo en VS Code (`README.md`).
-2. Selecciona todo (`Ctrl + A`) y bórralo.
-3. Copia y pega esto:
-
-```markdown
 # Proyecto Big Data: Monitoreo Agroclimático y Humedad del Suelo
 
 Pipeline de datos híbrido (Batch + Streaming) para el monitoreo de 4 estaciones agroclimáticas, desarrollado como proyecto final para el curso de Big Data de la Universidad Industrial de Santander (UIS).
@@ -130,4 +118,4 @@ python scripts/kafka_simulador.py
 - **Error "port 5432 is already in use":** Tienes un PostgreSQL local corriendo. Deténlo con `sudo systemctl stop postgresql` antes de levantar Docker.
 - **Error de imagen de MinIO:** Si Docker no descarga MinIO, verifica que el `docker-compose.yml` apunte a `cgr.dev/chainguard/minio:latest` (la imagen oficial cambió de registro recientemente).
 - **Error de Java en PySpark:** Asegúrate de tener Java 17 (`java -version`). Si no, instálalo con `sudo apt install openjdk-17-jre-headless`.
-```
+
